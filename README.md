@@ -1,0 +1,1 @@
+A really simple bash script which changes to a particular directory(in this case to a shared folder in my host os). The script is executed like any other command in linux by adding it to the .zshrc file.

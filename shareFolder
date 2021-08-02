@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+function change_to_sf() {
+directory="/media/sf_SharedFolder"
+cd ${directory}
+if [ $? == 0 ];
+then
+    echo "Successfuly changed to $PWD"
+else
+    echo "Error while changing directory, exit status $?"
+fi
+}
+change_to_sf
